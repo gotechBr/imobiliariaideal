@@ -1,20 +1,20 @@
-import "@styles/globals.css"
+import login from "@app/login/page";
+import "@styles/globals.css";
+import Link from 'next/link'
 
 function Nav() {
   return (
-    <nav className="navPrincipal">
-      <nav className="navBar">
-        <div className="divtitulo">
-          <h1 className="titulo">Imobiliária Ideal</h1>
-        </div>
-        <ul className="ul-nav">
-          <li>Sobre nós</li>
-          <li>É corretor?</li>
-          <li>Entrar</li>
-          <li>Criar conta</li>
+    <div class="divNavBar">
+      <nav class="navBar">
+        <h1><Link href="/">Imobiliária Ideal</Link></h1>
+        <ul class="nav-list">
+          <li><Link href="/sobre">Sobre nós</Link></li>
+          <li><Link href="/">É corretor?</Link></li>
+          <li><Link href="/login">Entrar</Link></li>
+          <li><Link href="/registro">Criar conta</Link></li>
         </ul>
       </nav>
-    </nav>
+    </div>
   )
 }
 

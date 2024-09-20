@@ -11,4 +11,42 @@
 * {
     font-family:'Be Vietnam Pro';
     list-style: none;
+    text-decoration: none;
+    margin:0px;
+    padding: 0px;   
+}
+
+input {
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.divNavBar{
+    color: #FFF;
+}
+
+.navBar {
+    display: flex;
+    background-color: var(--main-blue);
+    padding: 20px;
+}
+
+.navBar h1{
+    font-size: 28px;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list{
+    padding-top: 4px;
+    padding-left: 970px;
+    text-decoration: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    font-size: 19px;
 }
