@@ -2,8 +2,8 @@ import "@styles/globals.css";
 
 function page() {
   return (
-    <html><div>page</div></html>
+    <div></div>
   )
 }
 
-export default page
+export default page;

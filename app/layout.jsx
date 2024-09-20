@@ -1,15 +1,17 @@
-import Nav from "@components/Nav"
-import Search from "@components/Search"
+import Nav from '@components/Nav'
 
-//Layout principal disponibilizado na página.
-export default function layout() {
+export const metadata = {
+  title: 'Imobiliária Ideal',
+  description: 'Encontre o imóvel dos seus sonhos',
+}
+
+export default function RootLayout({ children }) {
   return (
-    <html>
-        <body>
-            <Nav />
-            <div>Layout</div>
-            <Search />
-        </body>
+    <html lang='pt-BR'>
+      <body>
+      <Nav/>
+        { children }
+      </body>
     </html>
   )
 }

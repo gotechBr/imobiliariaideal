@@ -2,7 +2,7 @@ import "@styles/globals.css"
 
 function Nav() {
   return (
-    <div className="navPrincipal">
+    <nav className="navPrincipal">
       <nav className="navBar">
         <div className="divtitulo">
           <h1 className="titulo">Imobiliária Ideal</h1>
@@ -14,7 +14,7 @@ function Nav() {
           <li>Criar conta</li>
         </ul>
       </nav>
-    </div>
+    </nav>
   )
 }
 
