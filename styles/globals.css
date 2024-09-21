@@ -4,6 +4,7 @@
 
 :root {
     --main-blue: #69A1E2;
+    --main-darker-blue: #325D8E;
     --main-white: #FFF;
     --main-black: #000;
 }
@@ -17,9 +18,18 @@
 }
 
 input {
-    border: 1px solid gray;
-    padding: 2px;
-    border-radius: 2px;
+    border: 2px solid var(--main-darker-blue);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: var(--main-white);
+    color: var(--main-darker-blue);
+    padding: 8px;
+    border-radius: 30px;
+    font-size: 14px;
+    max-width: max-content;
 }
 
 .divNavBar{
@@ -29,11 +39,11 @@ input {
 .navBar {
     display: flex;
     background-color: var(--main-blue);
-    padding: 20px;
+    padding: 30px;
 }
 
 .navBar h1{
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .navBar a {
@@ -46,7 +56,69 @@ input {
     padding-left: 970px;
     text-decoration: none;
     display: inline-flex;
-    flex-wrap: wrap;
     gap: 25px;
+    font-size: 16px;
+}
+
+.div-form {
+    color: var(--main-white);
     font-size: 19px;
+    display: grid;
+    margin: 50px;
+    padding: 40px;
+    background-color: var(--main-blue);
+    border-radius: 5px;
+    height: 570px;
+    width: 320px;
+    align-items: center;
+}
+
+.div-form input {
+    margin-bottom: 20px;
+}
+
+
+.div-form h3 {
+    font-size: 29px;
+}
+
+.main-div-form {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-text-registro{
+    font-size: 52px;
+    max-width: 290px;
+    padding-right: 350px;
+}
+
+.main-login-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-form{
+    color: var(--main-white);
+    background-color: var(--main-blue);
+    display: grid;
+    margin: 50px;
+    margin-top: 100px;
+    margin-right: 140px;
+    padding: 40px;
+    border-radius: 5px;
+    height: 373px;
+    width: 270px;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+}
+
+.form-text-login{
+    font-size: 52px;
+    max-width: 290px;
+    padding-left: 200px;
 }

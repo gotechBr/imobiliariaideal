@@ -1,24 +1,30 @@
 export default function Registro () {
     return (
-        <div>
+        <div class="main-div-form">
+            <div class="div-form">
             <h3>Registre-se</h3>
-            <form action="">
-                <label htmlFor="Nome">Como se chama?</label>
-                <input type="text" placeholder="Nome e sobrenome"/>
-                <label htmlFor="dataNasc">Data de nascimento</label>
-                <input type="Date" placeholder="dd/MM/AAAA"/>
-                <label htmlFor="Email">Email</label>
-                <input type="email" placeholder="email@exemplo.com"/>
-                <label htmlFor="Senha">Senha</label>
-                <input type="password" placeholder="Senha"/>
-                <label htmlFor="Senha">Confirme sua senha:</label>
-                <input type="password" placeholder="Senha"/>
-                <label htmlFor="telefone">Telefone</label>
-                <input type="text" placeholder="DDD +  Número"/>
-                <button>Vamos lá!</button>
-            </form>
-
-            <h3>O seu imóvel dos sonhos está aqui!</h3>
+                <form action="" class="form-registro">
+                    <label htmlFor="Nome">Como se chama?</label><br />
+                    <input type="text"/>
+                    <br />
+                    <label htmlFor="dataNasc">Data de nascimento</label><br />
+                    <input type="Date" />
+                    <br />
+                    <label htmlFor="Email">Email</label><br />
+                    <input type="email"/>
+                    <br />
+                    <label htmlFor="Senha">Senha</label><br />
+                    <input type="password"/>
+                    <br />
+                    <label htmlFor="Senha">Confirme sua senha</label><br />
+                    <input type="password" />
+                    <br />
+                    <label htmlFor="telefone">Telefone</label><br />
+                    <input type="text"/><br />
+                    <button>Vamos lá!</button>
+                </form>
+            </div>
+            <h3 class="form-text-registro">O imóvel dos seus sonhos está aqui!</h3>
         </div>
     )
 }
