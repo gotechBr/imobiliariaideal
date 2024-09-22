@@ -21,6 +21,7 @@ input {
     border: 2px solid var(--main-darker-blue);
     padding: 5px;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 button {
@@ -29,7 +30,6 @@ button {
     padding: 8px;
     border-radius: 30px;
     font-size: 14px;
-    max-width: max-content;
 }
 
 .divNavBar{
@@ -122,3 +122,80 @@ button {
     max-width: 290px;
     padding-left: 200px;
 }
+
+.link-login {
+    display: flex;
+    color: var(--main-white);
+    opacity: 50%;
+    font-size: 15px;
+}
+
+.redefinir-senha {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin: 300px;
+}
+
+.rs-content {
+    text-align: center;
+}
+
+.rs-content input{
+    font-size: 16px;
+    margin: 20px;
+    margin-top: 40px;
+    width: 400px;
+    height: 25px;
+}
+
+.rs-content button{
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+}
+
+.search-main {
+    background-color: var(--main-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    height: 200px;
+    padding: 100px;
+    border-radius: 5px;
+}
+
+.search-content select{
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #325D8E;
+    margin-right: 20px;
+}
+
+.search-content input{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.search-content{
+    text-align: center;
+}
+
+.search-content h1{
+    color: var(--main-white);
+    font-size: 42px;
+}
+
+.search-content button{
+    padding: 13px;
+    width: 200px;
+    height: 52px;
+}
+
+
+
+
+

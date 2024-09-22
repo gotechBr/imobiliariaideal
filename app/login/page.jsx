@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function login() {
   return (  
     <div class="main-login-form">
@@ -8,7 +10,7 @@ export default function login() {
           <h3>Login</h3>         
           <input type="text" placeholder="Email ou Telefone"/>
           <input type="text" placeholder="Senha"/>
-          <p>Esqueceu sua senha?</p>
+          <Link href="/redefinir-senha" class="link-login"><p>Esqueceu sua senha?</p></Link>
 
           <button>Entrar</button>
         </form>

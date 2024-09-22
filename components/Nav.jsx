@@ -10,8 +10,8 @@ function Nav() {
         <ul class="nav-list">
           <li><Link href="/">Sobre nós</Link></li>
           <li><Link href="/">É corretor?</Link></li>
-          <li><Link href="/login">Entrar</Link></li>
           <li><Link href="/registro">Criar conta</Link></li>
+          <li><Link href="/login">Entrar</Link></li>
         </ul>
       </nav>
     </div>

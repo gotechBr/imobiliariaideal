@@ -1,4 +1,5 @@
 import Nav from '@components/Nav'
+import Search from '@components/Search'
 
 export const metadata = {
   title: 'Imobiliária Ideal',
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
       <body>
       <Nav/>
         { children }
+        <Search />
       </body>
     </html>
   )
