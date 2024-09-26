@@ -10,8 +10,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
-@Entity
+i@Entity
 @Table(name = "imovel")
 public class Imovel {
 
@@ -31,8 +30,22 @@ public class Imovel {
     @Column(name = "suites")
     private int suites;
     @Column(name = "tamanho")
-    private int tamanho;
+    private double tamanho;
     @Column(name = "descricao")
     private String descricao;
+
+    public Imovel(Long id, String rua, String numero, String cep, String uf, int quartos, int suites, double tamanho, String descricao) {
+        this.id = id;
+        this.rua = rua;
+        this.numero = numero;
+        this.cep = cep;
+        this.uf = uf;
+        this.quartos = quartos;
+        this.suites = suites;
+        this.tamanho = tamanho;
+        this.descricao = descricao;
+    }
+
+    public Imovel () {}
 
 }
