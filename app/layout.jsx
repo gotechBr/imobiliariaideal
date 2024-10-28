@@ -10,9 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang='pt-BR'>
       <body>
-      <Nav/>
+        <Nav/>
         { children }
-        <Search />
       </body>
     </html>
   )

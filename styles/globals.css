@@ -30,6 +30,7 @@ button {
     padding: 8px;
     border-radius: 30px;
     font-size: 14px;
+    
 }
 
 .divNavBar{
@@ -193,6 +194,12 @@ button {
     padding: 13px;
     width: 200px;
     height: 52px;
+}
+
+.search-content button:hover{
+    transition: 0.9ms;
+    background-color: rgb(222, 222, 222);
+    color: rgb(255, 255, 255);
 }
 
 
